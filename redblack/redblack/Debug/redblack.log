@@ -1,0 +1,20 @@
+﻿빌드 시작: 2013-06-27 오후 5:29:07
+     1>2 노드의 "C:\Users\Dec7\Documents\Visual Studio 2012\Projects\redblack\redblack\redblack.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt rbt.c
+         rbt.c
+     1>c:\users\dec7\documents\visual studio 2012\projects\redblack\redblack\rbt.c(152): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
+     1>c:\users\dec7\documents\visual studio 2012\projects\redblack\redblack\rbt.c(174): warning C4013: 'createNode'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\dec7\documents\visual studio 2012\projects\redblack\redblack\rbt.c(174): warning C4047: '=' : 'node_t *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+     1>c:\users\dec7\documents\visual studio 2012\projects\redblack\redblack\rbt.c(180): warning C4013: 'freeNode'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\dec7\documents\visual studio 2012\projects\redblack\redblack\rbt.c(168): warning C4101: 'node' :참조되지 않은 지역 변수입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dec7\Documents\Visual Studio 2012\Projects\redblack\Debug\redblack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dec7\Documents\Visual Studio 2012\Projects\redblack\Debug\redblack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dec7\Documents\Visual Studio 2012\Projects\redblack\Debug\redblack.lib" /MACHINE:X86 Debug\rbt.obj
+     1>rbt.obj : error LNK2019: _createNode 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>rbt.obj : error LNK2019: _freeNode 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+     1>C:\Users\Dec7\Documents\Visual Studio 2012\Projects\redblack\Debug\redblack.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\Users\Dec7\Documents\Visual Studio 2012\Projects\redblack\redblack\redblack.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.15
